@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greggs.Products.Api", "Greggs.Products.Api\Greggs.Products.Api.csproj", "{007260C8-D357-4E89-B176-9AB9A09B2FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greggs.Products.Api", "Greggs.Products.Api\Greggs.Products.Api.csproj", "{007260C8-D357-4E89-B176-9AB9A09B2FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greggs.Products.UnitTests", "Greggs.Products.UnitTests\Greggs.Products.UnitTests.csproj", "{F5E1CF54-E437-4B89-9779-C77FF9A0644A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greggs.Products.UnitTests", "Greggs.Products.UnitTests\Greggs.Products.UnitTests.csproj", "{F5E1CF54-E437-4B89-9779-C77FF9A0644A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE9E7A58-A725-4902-80E5-D68103567A9B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{007260C8-D357-4E89-B176-9AB9A09B2FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +46,11 @@ Global
 		{F5E1CF54-E437-4B89-9779-C77FF9A0644A}.Release|x64.Build.0 = Release|Any CPU
 		{F5E1CF54-E437-4B89-9779-C77FF9A0644A}.Release|x86.ActiveCfg = Release|Any CPU
 		{F5E1CF54-E437-4B89-9779-C77FF9A0644A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A574400-1FFD-45F8-AA8B-86103F445FE9}
 	EndGlobalSection
 EndGlobal
